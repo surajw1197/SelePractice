@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="cases">
+	<test name="TC0001">
+		<classes>
+			<class name="m2.TestClass01">
+				<method>
+					<include name="f1"></include>
+				</method>
+				<method>
+						<include name="f3"></include>
+				</method>
+				<method>
+					<exclude name="f2"></exclude>
+				</method>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="TC0002">
+		<classes>
+			<class name="m2.TestClass02">
+				<method>
+					<include name="f4"></include>
+					<include name="f5"></include>
+					<include name="f6"></include>
+				</method>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
