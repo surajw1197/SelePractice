@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="m4.Demo05Select">
+      <class name="m5.DragAndDrop">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="f"/>
         </methods>
-      </class> <!-- m4.Demo05Select -->
+      </class> <!-- m5.DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
